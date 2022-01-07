@@ -1,0 +1,22 @@
+table{
+    width: 500px;
+    text-align:center;
+    color: #fff
+
+}
+
+caption{
+    color: #000;
+}
+
+table tr:nth-child(2n+1){
+    background:cyan;
+}
+
+table tr:nth-child(2n){
+    background:brown;
+}
+
+table tr:last-child{
+    background:#00ff00;
+}
